@@ -1,0 +1,43 @@
+<div class="show-mobile">
+    <div>
+      <button (click)="toggleMenu()">
+        <img width="40"  src="./assets/menu.png" alt="menu">
+      </button>
+      <a href="">
+        <img width="70" src="./assets/logo.png" alt="logo">
+      </a>
+      <a href="">
+        <img width="50" src="./assets/carrito.png" alt="logo">
+      </a>
+    </div>
+</div>
+<div class="side-menu" [class.active]="activeMenu">
+    <button (click)="toggleMenu()">Close</button>
+    <ul>
+        <li><a href="">All</a></li>
+        <li><a href="">Clothes</a></li>
+        <li><a href="">Electronics</a></li>
+    </ul>
+</div>
+  <div class="hide-mobile">
+    <div>
+      <nav>
+        <a class="logo" href="">
+          <img class="imgLogo" src="./assets/logo.png" alt="logo">
+        </a>
+        <ul>
+          <li><a href="">All</a></li>
+          <li><a href="">Clothes</a></li>
+          <li><a href="">Electronics</a></li>
+        </ul>
+      </nav>
+      <div class="info">
+        <div class="account">markromero3312@gmail.com</div>
+        <div>
+          <a href="">
+            <img class="imgLogo" src="./assets/carrito.png" alt="logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
