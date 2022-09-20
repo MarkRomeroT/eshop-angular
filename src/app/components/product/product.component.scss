@@ -1,3 +1,23 @@
 p, h2{
-    margin: 0;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-product{
+    text-align: center;
+    margin: 5px;
+
+    border: solid black;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.actionAdd{
+    display: flex;
+    justify-content: end;
+    button {
+        border: 0;
+        background: transparent;
+      }
 }
